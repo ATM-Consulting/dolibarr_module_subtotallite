@@ -136,11 +136,13 @@ class modSubtotal extends DolibarrModules
             		'Définit le style (B : gras, I : Italique, U : Souligné) des sous titres lorsque le détail des lignes et des ensembles est caché',
             		1
             	)
-				,1=>array('SUBTOTAL_ALLOW_ADD_BLOCK', 'chaine', '1', 'Permet l\'ajout de titres et sous-totaux')
-				,2=>array('SUBTOTAL_ALLOW_EDIT_BLOCK', 'chaine', '1', 'Permet de modifier titres et sous-totaux')
-				,3=>array('SUBTOTAL_ALLOW_REMOVE_BLOCK', 'chaine', '1', 'Permet de supprimer les titres et sous-totaux')
-				,4=>array('SUBTOTAL_TITLE_STYLE', 'chaine', 'BU')
-				,5=>array('SUBTOTAL_SUBTOTAL_STYLE', 'chaine', 'B')
+                ,1=>array('SUBTOTAL_USE_LEVEL', 'chaine', '0')
+				,2=>array('SUBTOTAL_ALLOW_ADD_BLOCK', 'chaine', '1', 'Permet l\'ajout de titres et sous-totaux')
+				,3=>array('SUBTOTAL_ALLOW_EDIT_BLOCK', 'chaine', '1', 'Permet de modifier titres et sous-totaux')
+				,4=>array('SUBTOTAL_ALLOW_REMOVE_BLOCK', 'chaine', '1', 'Permet de supprimer les titres et sous-totaux')
+                ,5=>array('SUBTOTAL_TEXT_FOR_TITLE_ORDETSTOINVOICE', 'chaine', '1')
+				,6=>array('SUBTOTAL_TITLE_STYLE', 'chaine', 'BU')
+				,7=>array('SUBTOTAL_SUBTOTAL_STYLE', 'chaine', 'B')
             //	1=>array(
             //		'MYMODULE_MYNEWCONST2',
             //		'chaine',
