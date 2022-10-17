@@ -1528,7 +1528,7 @@ class ActionsSubtotal
 
 
 			?>
-			<tr <?php echo $bc[$var]; $var=!$var; echo $data; ?> rel="subtotal" id="row-<?php echo $line->id ?>" style="<?php
+			<tr class="oddeven" <?php echo $data; ?> rel="subtotal" id="row-<?php echo $line->id ?>" style="<?php
 
 					if($line->qty==99) print 'background:#ddffdd';
 					else if($line->qty==98) print 'background:#ddddff;';
